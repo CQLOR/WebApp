@@ -665,3 +665,39 @@ form button:hover {
     }
 }
 
+/* YTD Sales table styles */
+#YtDSales {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+#YtDSales th,
+#YtDSales td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+#YtDSales thead th {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+}
+
+#YtDSales tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+#YtDSales tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+#YtDSales tfoot {
+    font-weight: bold;
+}
+
+#YtDSales tfoot td {
+    border-top: 2px solid var(--primary-color);
+}
+
