@@ -8,4 +8,8 @@ Also, I have included the Google API App Script code in a file called Code.gs
 
 This WebApp is is a template for a SalesTeam or individual who would want to keep track of their YTD monthly sales.
 
+Node.js packages have been installed. Lite-server dependencies were installed to run the project:
+npm install
+npm start
+
 
