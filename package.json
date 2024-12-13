@@ -1,11 +1,14 @@
 {
   "name": "final",
   "version": "1.0.0",
-  "description": "Through the admin tab this Web App will take data provided on the Sales Form and store it in a google sheets table.  It will also display all of the data within that table and calculate the total.  After submitting the form refresh the page in order to update the YTD Sales table provided in the web app.  The data table also includes sorting and pagination components.",
+  "description": "WebApp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "lite-server"
   },
   "author": "",
-  "license": "ISC"
+  "license": "",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
